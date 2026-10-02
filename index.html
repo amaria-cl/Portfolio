@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Clara</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@900&family=Inter:wght@400;600&family=Orbitron:wght@700;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
-        <h1> Portfólio Clara</h1>
+        <a href="#inicio" class="logo">Clara</a>
 
         <nav>
             <a href="#sobre">Sobre</a>
@@ -15,22 +22,81 @@
             <a href="#servicos">Serviços</a>
             <a href="#contato">Contato</a>
         </nav>
-
     </header>
 
     <main>
-
         <section id="inicio"> 
-            <h2>Bem vindo(a)</h2>
+            <div id="esfera-container"></div>
 
-            <p>Arraste para me conhecer</p>
+            <h1 id="nome-hero">Maria Clara</h1>
 
+            <p data-en="Full Stack Developer">
+                Desenvolvedora Full Stack
+            </p>
+
+            <p data-en="Hi, welcome! This is a little piece of who I am, what I do, and the things I like to build. Make yourself at home, there's plenty to discover around here.">
+                Oi, seja bem-vinda(o)! Esse é um pedacinho do que eu sou, do que faço e das coisas que gosto de construir. Fique à vontade, tem bastante coisa para descobrir por aqui.
+            </p>
         </section>
 
         <section id="sobre"> 
-            <h2>Quem sou eu?</h2>
+            
+            <p class="frase-impacto" data-en="Behind every system built, there's someone who needs to be heard.">
+                Atrás de todo sistema criado, existe alguém que precisa ser ouvido.
+            </p>
+            
+            <div class="dados">
+                <h2>Maria Clara Oliveira</h2>
+                <p data-en="São Paulo · 20 years old">
+                    São Paulo · 20 anos
+                </p>
+            </div>
 
-            <p>Texto</p>
+            <div class="historia">
+                <h3 data-en="Who I am">
+                    Quem eu sou
+                </h3>
+
+                <p data-en="I've always liked understanding how things work, and it was this curiosity that brought me to technology. But it was when I started seeing the people behind the systems that I truly found my place in programming.">
+                    Sempre gostei de entender como as coisas funcionam, e foi essa curiosidade que me trouxe para a tecnologia. Mas foi quando comecei a ver as pessoas por trás dos sistemas que realmente encontrei meu lugar na programação.
+                </p>
+
+                <p data-en="Today, I like turning problems and ideas into digital solutions, solutions that make sense to the people on the other side of the screen.">
+                    Hoje, eu gosto de transformar problemas e ideias em soluções digitais, soluções que façam sentido para as pessoas do outro lado da tela.
+                </p>
+            </div>
+
+            <div class="trajetoria">
+                <h3 data-en="Experience"> 
+                    Trajetória
+                </h3>
+
+                <ul>
+                    <li>
+                        <img src="assets/icons/caixa.png" alt="Logo Caixa">
+                        <span data-en="2023 - Caixa Econômica Federal - Administrative Assistant">
+                            20223 - Caixa Econômica Federal - Auxiliar Administrativa
+                        </span>
+                    </li>
+
+                    <li>
+                        <img src="assets/icons/amais.png" alt="Logo Amais">
+                        <span data-en="2025 - a+ Medicina Diagnostica (Fleury Group) Customer Service Operator">
+                            2025 — a+ Medicina Diagnóstica (Grupo Fleury) — Operadora de Atendimento
+                        </span>
+                    </li>
+
+                    <li>
+                        <img src="assets/icons/acnsf.png" alt="Logo ACNSF">
+                        <span data-en="2026 — ACNSF — Junior Full Stack Developer">
+                            2026 — ACNSF — Desenvolvedora Full Stack Júnior
+                        </span>
+                    </li>
+                </ul>
+
+
+
+            </div>
 
         </section>
 

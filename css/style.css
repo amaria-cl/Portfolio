@@ -1,0 +1,22 @@
+:root {
+  /* Nomes literais, paleta bruta */
+  --vinho: #700D17;
+  --creme: #E8E1D1;
+  --azul-marinho: #182747;
+  --verde-oliva: #35452E;
+  --cinza: #6E7078;
+  --quase-preto: #2A2620;
+
+  /* Nomes semânticos, o papel de cada cor */
+  --cor-primaria: var(--vinho);
+  --cor-fundo: var(--creme);
+  --cor-secundaria: var(--azul-marinho);
+  --cor-terciaria: var(--verde-oliva);
+  --cor-neutra: var(--cinza);
+  --cor-texto: var(--quase-preto);
+
+  --fonte-titulo: 'Fraunces', serif;
+  --fonte-corpo: 'Inter', sans-serif;
+  --fonte-hero: 'Orbitron', sans-serif;
+}
+

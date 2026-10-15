@@ -17,11 +17,16 @@
         <a href="#inicio" class="logo">Clara</a>
 
         <nav>
-            <a href="#sobre">Sobre</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#contato">Contato</a>
+            <a href="#sobre"    data-en="About">Sobre</a>
+            <a href="#projetos" data-en="Projects">Projetos</a>
+            <a href="#servicos" data-en="Services">Serviços</a>
+            <a href="#contato"  data-en="Contact">Contato</a>
         </nav>
+
+        <div class="controles">
+            <button type="button" id="botao-tema" aria-label="Alternar tema claro e escuro">🌙</button>
+            <button type="button" id="botao-idioma" aria-label="Mudar idioma para inglês">EN</button>
+        </div>
     </header>
 
     <main>
@@ -75,7 +80,7 @@
                     <li>
                         <img src="assets/icons/caixa.png" alt="Logo Caixa">
                         <span data-en="2023 - Caixa Econômica Federal - Administrative Assistant">
-                            20223 - Caixa Econômica Federal - Auxiliar Administrativa
+                            2023 - Caixa Econômica Federal - Auxiliar Administrativa
                         </span>
                     </li>
 
@@ -93,15 +98,74 @@
                         </span>
                     </li>
                 </ul>
+            </div>
+            
+            <div class="tecnologias">
+                <h3 data-en="Technologies I use to build">
+                    Tecnologias que uso para construir
+                </h3>
 
+                <div class="categoria-tech">
+                    <h4 data-en="Front-end">
+                        Front-end
+                    </h4>
+                    
+                    <ul>
+                        <li><img src="assets/icons/html.png" alt="HTML5"></li>
+                        <li><img src="assets/icons/css3.png" alt="CSS3"></li>
+                        <li data-destaque="true"><img src="assets/icons/javascript.png" alt="JavaScript"></li>
+                    </ul>
+                </div>
 
+                <div class="categoria-tech">
+                    <h4 data-en="Back-end">Back-end</h4>
 
+                    <ul>
+                        <li data-destaque="true"><img src="assets/icons/php.png" alt="PHP"></li>
+                        <li><img src="assets/icons/nodejs.png" alt="Node.js"></li>
+                        <li><img src="assets/icons/python.png" alt="Python"></li>
+                    </ul>
+                </div>
+
+                <div class="categoria-tech">
+                    <h4 data-en="Data">Dados</h4>
+
+                    <ul>
+                        <li data-destaque="true"><img src="assets/icons/mysql.png" alt="MySQL"></li>
+                        <li><img src="assets/icons/firebase.png" alt="Firebase"></li>
+                    </ul>
+                </div>
+
+                <div class="categoria-tech">
+                    <h4 data-en="Tools">Ferramentas</h4>
+
+                    <ul>
+                        <li><img src="assets/icons/github.png" alt="GitHub"></li>
+                        <li><img src="assets/icons/vscode.png" alt="VS Code"></li>
+                        <li><img src="assets/icons/figma.png" alt="Figma"></li>
+                        <li><img src="assets/icons/miro.png" alt="Miro"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pessoal">
+                <h3 data-en="The Clara behind the code">
+                    A Clara por trás do código
+                </h3>
+
+                <p data-en="Outside of code, music is practically part of me, I only take my earphones off to shower, and that's when I switch over to the bluetooth speaker.">
+                    Fora dos códigos, a música é praticamente parte de mim, só tiro o fone do ouvido pra tomar banho, e é quando eu passo o bluetooth pra caixa de som.
+                </p>
+
+                <p data-en="I'm also a bit of an all-over-the-place reader, with zero criteria, one day you'll catch me reading Carla Madeira, the next an enemies-to-lovers romance (the best kind of romance), and the next a Brazilian literature classic, like Machado de Assis. Genuinely no criteria whatsoever.">
+                    Também sou leitora de tudo um pouco, sem critério algum, um dia você vai me ver lendo Carla Madeira, no outro um romance enemies to lovers (os melhores romances do mundo), e no outro um clássico da literatura brasileira, como Machado de Assis. Literalmente sem nenhum critério.
+                </p> 
             </div>
 
         </section>
 
         <section id="projetos">
-            <h2>Projetos</h2>
+            <h2 data-en="Projects">Projetos</h2>
 
             <article>
                 <h3>Titulo projeto 1</h3>
@@ -133,21 +197,144 @@
         </section>
 
         <section id="servicos"> 
-            <h2>Serviços</h2>
+            <h2 data-en="What I can build">O que eu posso construir</h2>
 
-            <p>Texto</p>
+            <div class="grid-servicos">
+                <article>
+                    <span class="numero-servico">01</span>
+                    <h3 data-en="Full sites">Sites completos</h3>
+                    <p data-en="End-to-end development, from back-end to interface.">
+                        Desenvolvimento de ponta a ponta, do back-end à interface.
+                    </p>
+                </article>
+
+                <article>
+                    <span class="numero-servico">02</span>
+                    <h3 data-en="Web pages">Páginas web</h3>
+                    <p data-en="Objective, fast and professional digital presence.">
+                        Presença digital objetiva, rápida e profissional.
+                    </p>
+                </article>
+
+                <article>
+                    <span class="numero-servico">03</span>
+                    <h3 data-en="Custom systems">Sistemas sob medida</h3>
+                    <p data-en="Applications that automate processes and solve specific needs.">
+                        Aplicações que automatizam processos e resolvem necessidades específicas.
+                    </p>
+                </article>
+
+                <article>
+                    <span class="numero-servico">04</span>
+                    <h3 data-en="Identity & UX/UI">Identidade & UX/UI</h3>
+                    <p data-en="Visual creation or restructuring focused on personality and user experience.">
+                        Criação ou reestruturação visual com foco em personalidade e experiência do usuário.
+                    </p>
+                </article>
+
+                <article>
+                    <span class="numero-servico">05</span>
+                    <h3 data-en="Evolution & support">Evolução & suporte</h3>
+                    <p data-en="Maintenance and technical support to keep the product stable and evolving.">
+                        Manutenção e acompanhamento técnico para manter o produto estável e em evolução.
+                    </p>
+                </article>
+            </div>
         </section>
 
-        <section id="contato"> 
-            <h2>Fale comigo</h2>
+        <section id="contato">
+            <h2 data-en="Talk to me">Fale comigo</h2>
 
-            <p>Contato</p>
+            <p data-en="Liked my work and what I can do? Let's talk!">
+                Curtiu meu trabalho e o que eu posso fazer? Vamos conversar!
+            </p>
+
+            <ul class="contatos">
+                <li class="card-contato">
+                    <img src="assets/icons/email.png" alt="" class="icone-contato">
+                    <div class="card-texto">
+                        <span class="card-titulo" data-en="Professional email">E-mail profissional</span>
+                        <a href="mailto:claraoliveira.dev@gmail.com" id="email-link">claraoliveira.dev@gmail.com</a>
+                    </div>
+                    <button type="button" id="botao-copiar" data-en="Copy">Copiar</button>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/dev-clara-oliveira" class="card-contato" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/icons/linkedin.png" alt="" class="icone-contato">
+                        <div class="card-texto">
+                            <span class="card-titulo">LinkedIn</span>
+                            <span data-en="My career path and professional connections">Minha trajetória e conexões profissionais</span>
+                        </div>
+                        <span class="seta" aria-hidden="true">↗</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/amaria-cl" class="card-contato" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/icons/github.png" alt="" class="icone-contato">
+                        <div class="card-texto">
+                            <span class="card-titulo">GitHub</span>
+                            <span data-en="My projects, code and what I'm building">Meus projetos, códigos e o que estou construindo</span>
+                        </div>
+                        <span class="seta" aria-hidden="true">↗</span>
+                    </a>
+                </li>
+            </ul>
+
+            <form class="formulario-contato" method="post">
+                <h3 data-en="Send a message">Envie uma mensagem</h3>
+                <p data-en="Rather write here? Send me a message and I'll reply as soon as I can.">
+                    Prefere escrever por aqui? Me manda uma mensagem que eu respondo assim que puder.
+                </p>
+
+                <label for="campo-nome" data-en="Name">Nome</label>
+                <input type="text" id="campo-nome" name="nome"
+                    placeholder="Como você se chama?"
+                    data-en-placeholder="What's your name?" required>
+
+                <label for="campo-email" data-en="Email">E-mail</label>
+                <input type="email" id="campo-email" name="email" 
+                    placeholder="voce@empresa.com"
+                    data-en-placeholder="you@company.com" required>
+
+                <fieldset>
+                    <legend data-en="Subject">Assunto</legend>
+
+                    <label>
+                        <input type="radio" name="assunto" value="projeto" checked>
+                        <span data-en="Project or freelance">Projeto ou freelance</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="assunto" value="parceria">
+                        <span data-en="Partnership">Parceria</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="assunto" value="networking">
+                        <span>Networking</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="assunto" value="outro">
+                        <span data-en="Something else">Outro assunto</span>
+                    </label>
+                </fieldset>
+
+                <label for="campo-mensagem" data-en="Message">Mensagem</label>
+                <textarea id="campo-mensagem" name="mensagem" rows="5" 
+                    placeholder="Conte brevemente como posso ajudar..."
+                    data-en-placeholder="Briefly tell me how I can help..." required></textarea>
+
+                <button type="submit" data-en="Send message">Enviar mensagem</button>
+            </form>
         </section>
 
     </main>
 
     <footer>
-
+        <p>&copy; 2026 | Maria Clara Oliveira </p>
     </footer>
 </body>
 </html>
